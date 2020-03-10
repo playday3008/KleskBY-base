@@ -4,7 +4,6 @@ using System;
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1583272647;
     public static class netvars
     {
         public const Int32 cs_gamerules_data = 0x0;
