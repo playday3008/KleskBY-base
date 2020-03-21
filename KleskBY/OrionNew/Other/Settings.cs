@@ -3,8 +3,7 @@
     internal class Settings
     {
         public static string UserAgentString = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36";
-        public static string username;
-        public static string version = "1";
+        public static string version = "1.0";
 
         public struct OtherControls
         {
