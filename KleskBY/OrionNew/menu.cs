@@ -6575,16 +6575,6 @@ namespace Orion
             button8.ForeColor = Color.Red;
         }
 
-        private void button13_MouseEnter(object sender, EventArgs e)
-        {
-            button13.ForeColor = Color.DarkRed;
-        }
-
-        private void button13_MouseLeave(object sender, EventArgs e)
-        {
-            button13.ForeColor = Color.Red;
-        }
-
         private void button5_MouseEnter(object sender, EventArgs e)
         {
             button5.ForeColor = Color.DarkRed;
@@ -6630,15 +6620,6 @@ namespace Orion
         private void button11_MouseLeave(object sender, EventArgs e)
         {
             button11.ForeColor = Color.Red;
-        }
-        private void button14_MouseEnter(object sender, EventArgs e)
-        {
-            button14.ForeColor = Color.DarkRed;
-        }
-
-        private void button14_MouseLeave(object sender, EventArgs e)
-        {
-            button14.ForeColor = Color.Red;
         }
         #endregion
         #region buttonclicks
@@ -6752,13 +6733,6 @@ namespace Orion
         {
             tabControl1.SelectTab(7);
             UI.MenuPointer(panel3, button8, this);
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            tabControl1.SelectTab(8);
-            UI.MenuPointer(panel3, button13, this);
-            UpdateChat();
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -6894,19 +6868,6 @@ namespace Orion
         }
         #endregion
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            richTextBox1.SelectionStart = richTextBox1.Text.Length;
-            richTextBox1.ScrollToCaret();
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                SendMessage();
-            }
-        }
         public static string MD5Hash(string text)
         {
             MD5 md5 = new MD5CryptoServiceProvider();
@@ -6922,79 +6883,12 @@ namespace Orion
             return strBuilder.ToString();
         }
 
-        private void runBrowserThread(string url)
-        {
-            var th = new Thread(() => {
-                var br = new WebBrowser();
-                br.Navigate(url);
-                Application.Run();
-            });
-            th.SetApartmentState(ApartmentState.STA);
-            th.Start();
-        }
-
-        private void SendMessage()
-        {
-            try
-            {
-                if (abletochat)
-                {
-                    if (textBox1.Text.Length > 1 && textBox1.Text.Length < 140)
-                    {
-                        var src = DateTime.Now;
-                        var hm = new DateTime(src.Year, src.Month, src.Day, src.Hour, src.Minute, 0);
-                        string hash = Settings.username + "-" + src.Minute.ToString();
-                        runBrowserThread("http://91.235.129.157/chat.php" + "?nick=" + Settings.username + "&hash=" + MD5Hash(hash) + "&text=" + textBox1.Text);
-                        richTextBox1.Text = $"{richTextBox1.Text}{Environment.NewLine}[{src.Day}.{src.Month}.{src.Year}] [{src.Hour}:{src.Minute}]  {Settings.username}::{Environment.NewLine}{textBox1.Text}";
-                        textBox1.Clear();
-                        abletochat = false;
-                        timer2.Start();
-                    }
-                    else Console.Beep(100, 100);
-                }
-                else Console.Beep(100, 100);
-            }
-            catch (Exception ex) { MessageBox.Show(ex.ToString()); }
-        }
-        private void UpdateChat()
-        {
-            string chat = new System.Net.WebClient().DownloadString("http://91.235.129.157/chat.txt");
-            if (chat != ChatText)
-            {
-                ChatText = chat;
-                string[] result = chat.Split(new[] { '\r', '\n' });
-                richTextBox1.Clear();
-                foreach (string line in result)
-                {
-                    if (line.Length > 5)
-                    {
-                        char[] charSeparators = new char[] { ',' };
-                        string[] date = line.Split(charSeparators);
-                        richTextBox1.Text = $"{richTextBox1.Text}{Environment.NewLine}[{date[1]}] [{date[2]}]  {date[3]}::{Environment.NewLine}{date[4]}";
-                    }
-                }
-            }
-        }
-
+        
         private void timer2_Tick(object sender, EventArgs e)
         {
             abletochat = true;
             timer2.Stop();
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (tabControl1.SelectedIndex == 8)
-            {
-                UpdateChat();
-            }
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            SendMessage();
-        }
-
 
         private void EspToggle1_Click(object sender, EventArgs e)
         {
