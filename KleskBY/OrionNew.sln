@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionNew", "OrionNew\OrionNew.csproj", "{3EE361D4-DB4E-429E-89CC-38567D3F52F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonySenseEx", "OrionNew\PonySenseEx.csproj", "{3EE361D4-DB4E-429E-89CC-38567D3F52F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
