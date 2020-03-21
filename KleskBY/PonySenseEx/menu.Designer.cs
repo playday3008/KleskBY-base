@@ -238,6 +238,7 @@
 			this.timer2 = new System.Windows.Forms.Timer(this.components);
 			this.button9 = new System.Windows.Forms.Button();
 			this.button10 = new System.Windows.Forms.Button();
+			this.Logo = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.tabControl1.SuspendLayout();
@@ -280,6 +281,7 @@
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+			this.panel1.Controls.Add(this.Logo);
 			this.panel1.Controls.Add(this.button8);
 			this.panel1.Controls.Add(this.button7);
 			this.panel1.Controls.Add(this.button6);
@@ -2279,7 +2281,9 @@
 			// 
 			// RADAR
 			// 
-			this.RADAR.BackColor = System.Drawing.Color.Maroon;
+			this.RADAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
+			this.RADAR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RADAR.BackgroundImage")));
+			this.RADAR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.RADAR.Controls.Add(this.label8);
 			this.RADAR.Location = new System.Drawing.Point(4, 29);
 			this.RADAR.Name = "RADAR";
@@ -2291,12 +2295,14 @@
 			// label8
 			// 
 			this.label8.AutoSize = true;
-			this.label8.BackColor = System.Drawing.Color.Transparent;
+			this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
+			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label8.Location = new System.Drawing.Point(140, 145);
+			this.label8.Location = new System.Drawing.Point(2, 294);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(187, 33);
+			this.label8.Size = new System.Drawing.Size(189, 35);
 			this.label8.TabIndex = 177;
 			this.label8.Text = "Coming soon";
 			// 
@@ -3355,6 +3361,17 @@
 			this.button10.MouseEnter += new System.EventHandler(this.button10_MouseEnter);
 			this.button10.MouseLeave += new System.EventHandler(this.button10_MouseLeave);
 			// 
+			// Logo
+			// 
+			this.Logo.AutoSize = true;
+			this.Logo.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Logo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(39)))), ((int)(((byte)(176)))));
+			this.Logo.Location = new System.Drawing.Point(12, 338);
+			this.Logo.Name = "Logo";
+			this.Logo.Size = new System.Drawing.Size(108, 22);
+			this.Logo.TabIndex = 11;
+			this.Logo.Text = "PonySense";
+			// 
 			// menu
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -3379,6 +3396,7 @@
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.panel1.ResumeLayout(false);
+			this.panel1.PerformLayout();
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
 			this.tabControl1.ResumeLayout(false);
@@ -3639,6 +3657,7 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Button EspToggle2;
         private System.Windows.Forms.Label ProfileLabel2;
+		private System.Windows.Forms.Label Logo;
 	}
 }
 
