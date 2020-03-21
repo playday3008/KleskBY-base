@@ -279,6 +279,7 @@
 			// 
 			// panel1
 			// 
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
 			this.panel1.Controls.Add(this.button8);
 			this.panel1.Controls.Add(this.button7);
 			this.panel1.Controls.Add(this.button6);
@@ -431,6 +432,7 @@
 			// 
 			// panel2
 			// 
+			this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
 			this.panel2.Controls.Add(this.button12);
 			this.panel2.Controls.Add(this.button11);
 			this.panel2.Controls.Add(this.ConfigLabel);
@@ -447,6 +449,7 @@
 			this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.button12.FlatAppearance.BorderSize = 0;
 			this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button12.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button12.ForeColor = System.Drawing.Color.Red;
 			this.button12.Location = new System.Drawing.Point(349, 6);
 			this.button12.Name = "button12";
@@ -464,6 +467,7 @@
 			this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.button11.FlatAppearance.BorderSize = 0;
 			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button11.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button11.ForeColor = System.Drawing.Color.Red;
 			this.button11.Location = new System.Drawing.Point(225, 6);
 			this.button11.Name = "button11";
@@ -535,7 +539,7 @@
 			// 
 			// PROFILE
 			// 
-			this.PROFILE.BackColor = System.Drawing.Color.Maroon;
+			this.PROFILE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.PROFILE.Controls.Add(this.GlowTitle);
 			this.PROFILE.Controls.Add(this.ProfileLabel9);
 			this.PROFILE.Controls.Add(this.ProfileLabel6);
@@ -552,11 +556,11 @@
 			// 
 			this.GlowTitle.AutoSize = true;
 			this.GlowTitle.BackColor = System.Drawing.Color.Transparent;
-			this.GlowTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.GlowTitle.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.GlowTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
 			this.GlowTitle.Location = new System.Drawing.Point(183, 8);
 			this.GlowTitle.Name = "GlowTitle";
-			this.GlowTitle.Size = new System.Drawing.Size(115, 29);
+			this.GlowTitle.Size = new System.Drawing.Size(93, 29);
 			this.GlowTitle.TabIndex = 153;
 			this.GlowTitle.Text = "PROFILE";
 			// 
@@ -564,10 +568,11 @@
 			// 
 			this.ProfileLabel9.AutoSize = true;
 			this.ProfileLabel9.BackColor = System.Drawing.Color.Transparent;
+			this.ProfileLabel9.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ProfileLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
 			this.ProfileLabel9.Location = new System.Drawing.Point(55, 98);
 			this.ProfileLabel9.Name = "ProfileLabel9";
-			this.ProfileLabel9.Size = new System.Drawing.Size(133, 24);
+			this.ProfileLabel9.Size = new System.Drawing.Size(119, 23);
 			this.ProfileLabel9.TabIndex = 150;
 			this.ProfileLabel9.Text = "Hack Version: ";
 			// 
@@ -575,10 +580,11 @@
 			// 
 			this.ProfileLabel6.AutoSize = true;
 			this.ProfileLabel6.BackColor = System.Drawing.Color.Transparent;
+			this.ProfileLabel6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ProfileLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
 			this.ProfileLabel6.Location = new System.Drawing.Point(55, 76);
 			this.ProfileLabel6.Name = "ProfileLabel6";
-			this.ProfileLabel6.Size = new System.Drawing.Size(117, 24);
+			this.ProfileLabel6.Size = new System.Drawing.Size(103, 23);
 			this.ProfileLabel6.TabIndex = 149;
 			this.ProfileLabel6.Text = "OS Version: ";
 			// 
@@ -586,16 +592,17 @@
 			// 
 			this.ProfileLabel2.AutoSize = true;
 			this.ProfileLabel2.BackColor = System.Drawing.Color.Transparent;
+			this.ProfileLabel2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ProfileLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
 			this.ProfileLabel2.Location = new System.Drawing.Point(55, 55);
 			this.ProfileLabel2.Name = "ProfileLabel2";
-			this.ProfileLabel2.Size = new System.Drawing.Size(85, 24);
+			this.ProfileLabel2.Size = new System.Drawing.Size(77, 23);
 			this.ProfileLabel2.TabIndex = 142;
 			this.ProfileLabel2.Text = "Version: ";
 			// 
 			// AIMBOT
 			// 
-			this.AIMBOT.BackColor = System.Drawing.Color.Maroon;
+			this.AIMBOT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.AIMBOT.Controls.Add(this.label9);
 			this.AIMBOT.Controls.Add(this.Toggle8);
 			this.AIMBOT.Controls.Add(this.label7);
@@ -669,7 +676,7 @@
 			this.Toggle8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle8.FlatAppearance.BorderSize = 0;
 			this.Toggle8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle8.Location = new System.Drawing.Point(403, 73);
+			this.Toggle8.Location = new System.Drawing.Point(415, 72);
 			this.Toggle8.Name = "Toggle8";
 			this.Toggle8.Size = new System.Drawing.Size(48, 18);
 			this.Toggle8.TabIndex = 85;
@@ -680,7 +687,7 @@
 			// 
 			this.label7.AutoSize = true;
 			this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label7.Location = new System.Drawing.Point(258, 69);
+			this.label7.Location = new System.Drawing.Point(275, 69);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(129, 24);
 			this.label7.TabIndex = 84;
@@ -725,9 +732,9 @@
 			this.comboBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
 			this.comboBox3.IntegralHeight = false;
 			this.comboBox3.ItemHeight = 24;
-			this.comboBox3.Location = new System.Drawing.Point(322, 124);
+			this.comboBox3.Location = new System.Drawing.Point(323, 124);
 			this.comboBox3.Name = "comboBox3";
-			this.comboBox3.Size = new System.Drawing.Size(129, 32);
+			this.comboBox3.Size = new System.Drawing.Size(140, 32);
 			this.comboBox3.TabIndex = 80;
 			this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
 			// 
@@ -746,9 +753,9 @@
             "Rifles",
             "Snipers",
             "Heavy"});
-			this.comboBox2.Location = new System.Drawing.Point(87, 121);
+			this.comboBox2.Location = new System.Drawing.Point(87, 124);
 			this.comboBox2.Name = "comboBox2";
-			this.comboBox2.Size = new System.Drawing.Size(125, 32);
+			this.comboBox2.Size = new System.Drawing.Size(135, 32);
 			this.comboBox2.TabIndex = 79;
 			this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
 			// 
@@ -767,9 +774,9 @@
             "Chest",
             "Stomach",
             "Nearest"});
-			this.comboBox1.Location = new System.Drawing.Point(87, 159);
+			this.comboBox1.Location = new System.Drawing.Point(87, 162);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(125, 32);
+			this.comboBox1.Size = new System.Drawing.Size(135, 32);
 			this.comboBox1.TabIndex = 78;
 			this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
 			// 
@@ -777,7 +784,7 @@
 			// 
 			this.trackBar8.AutoSize = false;
 			this.trackBar8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.trackBar8.Location = new System.Drawing.Point(64, 291);
+			this.trackBar8.Location = new System.Drawing.Point(55, 299);
 			this.trackBar8.Maximum = 30;
 			this.trackBar8.Minimum = 10;
 			this.trackBar8.Name = "trackBar8";
@@ -805,7 +812,7 @@
 			// 
 			this.trackBar6.AutoSize = false;
 			this.trackBar6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.trackBar6.Location = new System.Drawing.Point(288, 225);
+			this.trackBar6.Location = new System.Drawing.Point(288, 223);
 			this.trackBar6.Maximum = 200;
 			this.trackBar6.Name = "trackBar6";
 			this.trackBar6.Size = new System.Drawing.Size(143, 20);
@@ -818,7 +825,7 @@
 			// 
 			this.trackBar5.AutoSize = false;
 			this.trackBar5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.trackBar5.Location = new System.Drawing.Point(288, 245);
+			this.trackBar5.Location = new System.Drawing.Point(288, 249);
 			this.trackBar5.Maximum = 200;
 			this.trackBar5.Name = "trackBar5";
 			this.trackBar5.Size = new System.Drawing.Size(143, 20);
@@ -831,10 +838,10 @@
 			// 
 			this.trackBar4.AutoSize = false;
 			this.trackBar4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.trackBar4.Location = new System.Drawing.Point(83, 243);
+			this.trackBar4.Location = new System.Drawing.Point(82, 249);
 			this.trackBar4.Maximum = 200;
 			this.trackBar4.Name = "trackBar4";
-			this.trackBar4.Size = new System.Drawing.Size(130, 20);
+			this.trackBar4.Size = new System.Drawing.Size(131, 20);
 			this.trackBar4.TabIndex = 73;
 			this.trackBar4.TickFrequency = 0;
 			this.trackBar4.TickStyle = System.Windows.Forms.TickStyle.None;
@@ -857,7 +864,7 @@
 			// 
 			this.trackBar2.AutoSize = false;
 			this.trackBar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.trackBar2.Location = new System.Drawing.Point(307, 97);
+			this.trackBar2.Location = new System.Drawing.Point(303, 97);
 			this.trackBar2.Maximum = 150;
 			this.trackBar2.Name = "trackBar2";
 			this.trackBar2.Size = new System.Drawing.Size(129, 21);
@@ -884,7 +891,7 @@
 			// 
 			this.label3.AutoSize = true;
 			this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label3.Location = new System.Drawing.Point(75, 69);
+			this.label3.Location = new System.Drawing.Point(79, 69);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(89, 24);
 			this.label3.TabIndex = 69;
@@ -904,7 +911,7 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label1.Location = new System.Drawing.Point(83, 42);
+			this.label1.Location = new System.Drawing.Point(79, 42);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(86, 24);
 			this.label1.TabIndex = 67;
@@ -916,7 +923,7 @@
 			this.Toggle7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle7.FlatAppearance.BorderSize = 0;
 			this.Toggle7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle7.Location = new System.Drawing.Point(159, 268);
+			this.Toggle7.Location = new System.Drawing.Point(174, 274);
 			this.Toggle7.Name = "Toggle7";
 			this.Toggle7.Size = new System.Drawing.Size(48, 18);
 			this.Toggle7.TabIndex = 66;
@@ -929,7 +936,7 @@
 			this.Toggle6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle6.FlatAppearance.BorderSize = 0;
 			this.Toggle6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle6.Location = new System.Drawing.Point(403, 198);
+			this.Toggle6.Location = new System.Drawing.Point(415, 199);
 			this.Toggle6.Name = "Toggle6";
 			this.Toggle6.Size = new System.Drawing.Size(48, 18);
 			this.Toggle6.TabIndex = 65;
@@ -942,7 +949,7 @@
 			this.Toggle5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle5.FlatAppearance.BorderSize = 0;
 			this.Toggle5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle5.Location = new System.Drawing.Point(174, 198);
+			this.Toggle5.Location = new System.Drawing.Point(174, 199);
 			this.Toggle5.Name = "Toggle5";
 			this.Toggle5.Size = new System.Drawing.Size(48, 18);
 			this.Toggle5.TabIndex = 64;
@@ -955,7 +962,7 @@
 			this.Toggle4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle4.FlatAppearance.BorderSize = 0;
 			this.Toggle4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle4.Location = new System.Drawing.Point(403, 165);
+			this.Toggle4.Location = new System.Drawing.Point(415, 165);
 			this.Toggle4.Name = "Toggle4";
 			this.Toggle4.Size = new System.Drawing.Size(48, 18);
 			this.Toggle4.TabIndex = 63;
@@ -981,7 +988,7 @@
 			this.Toggle2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.Toggle2.FlatAppearance.BorderSize = 0;
 			this.Toggle2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.Toggle2.Location = new System.Drawing.Point(403, 45);
+			this.Toggle2.Location = new System.Drawing.Point(415, 45);
 			this.Toggle2.Name = "Toggle2";
 			this.Toggle2.Size = new System.Drawing.Size(48, 18);
 			this.Toggle2.TabIndex = 61;
@@ -1005,7 +1012,7 @@
 			// 
 			this.label29.AutoSize = true;
 			this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label29.Location = new System.Drawing.Point(290, 163);
+			this.label29.Location = new System.Drawing.Point(298, 162);
 			this.label29.Name = "label29";
 			this.label29.Size = new System.Drawing.Size(97, 24);
 			this.label29.TabIndex = 59;
@@ -1015,7 +1022,7 @@
 			// 
 			this.label28.AutoSize = true;
 			this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label28.Location = new System.Drawing.Point(11, 265);
+			this.label28.Location = new System.Drawing.Point(11, 271);
 			this.label28.Name = "label28";
 			this.label28.Size = new System.Drawing.Size(100, 24);
 			this.label28.TabIndex = 58;
@@ -1025,7 +1032,7 @@
 			// 
 			this.label27.AutoSize = true;
 			this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label27.Location = new System.Drawing.Point(11, 290);
+			this.label27.Location = new System.Drawing.Point(6, 296);
 			this.label27.Name = "label27";
 			this.label27.Size = new System.Drawing.Size(55, 24);
 			this.label27.TabIndex = 57;
@@ -1035,7 +1042,7 @@
 			// 
 			this.label26.AutoSize = true;
 			this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label26.Location = new System.Drawing.Point(193, 290);
+			this.label26.Location = new System.Drawing.Point(187, 296);
 			this.label26.Name = "label26";
 			this.label26.Size = new System.Drawing.Size(40, 24);
 			this.label26.TabIndex = 56;
@@ -1065,7 +1072,7 @@
 			// 
 			this.label23.AutoSize = true;
 			this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label23.Location = new System.Drawing.Point(265, 225);
+			this.label23.Location = new System.Drawing.Point(264, 225);
 			this.label23.Name = "label23";
 			this.label23.Size = new System.Drawing.Size(27, 24);
 			this.label23.TabIndex = 51;
@@ -1075,7 +1082,7 @@
 			// 
 			this.label22.AutoSize = true;
 			this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label22.Location = new System.Drawing.Point(435, 224);
+			this.label22.Location = new System.Drawing.Point(432, 223);
 			this.label22.Name = "label22";
 			this.label22.Size = new System.Drawing.Size(40, 24);
 			this.label22.TabIndex = 50;
@@ -1085,7 +1092,7 @@
 			// 
 			this.label21.AutoSize = true;
 			this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label21.Location = new System.Drawing.Point(265, 245);
+			this.label21.Location = new System.Drawing.Point(262, 245);
 			this.label21.Name = "label21";
 			this.label21.Size = new System.Drawing.Size(29, 24);
 			this.label21.TabIndex = 49;
@@ -1095,7 +1102,7 @@
 			// 
 			this.label20.AutoSize = true;
 			this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label20.Location = new System.Drawing.Point(435, 245);
+			this.label20.Location = new System.Drawing.Point(432, 247);
 			this.label20.Name = "label20";
 			this.label20.Size = new System.Drawing.Size(40, 24);
 			this.label20.TabIndex = 48;
@@ -1105,7 +1112,7 @@
 			// 
 			this.label19.AutoSize = true;
 			this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label19.Location = new System.Drawing.Point(11, 243);
+			this.label19.Location = new System.Drawing.Point(9, 247);
 			this.label19.Name = "label19";
 			this.label19.Size = new System.Drawing.Size(72, 24);
 			this.label19.TabIndex = 43;
@@ -1115,7 +1122,7 @@
 			// 
 			this.label18.AutoSize = true;
 			this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label18.Location = new System.Drawing.Point(213, 243);
+			this.label18.Location = new System.Drawing.Point(213, 247);
 			this.label18.Name = "label18";
 			this.label18.Size = new System.Drawing.Size(40, 24);
 			this.label18.TabIndex = 42;
@@ -1135,7 +1142,7 @@
 			// 
 			this.label16.AutoSize = true;
 			this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label16.Location = new System.Drawing.Point(213, 225);
+			this.label16.Location = new System.Drawing.Point(213, 223);
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(40, 24);
 			this.label16.TabIndex = 39;
@@ -1145,7 +1152,7 @@
 			// 
 			this.label15.AutoSize = true;
 			this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label15.Location = new System.Drawing.Point(284, 198);
+			this.label15.Location = new System.Drawing.Point(293, 196);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(111, 24);
 			this.label15.TabIndex = 36;
@@ -1165,7 +1172,7 @@
 			// 
 			this.label13.AutoSize = true;
 			this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label13.Location = new System.Drawing.Point(437, 97);
+			this.label13.Location = new System.Drawing.Point(432, 97);
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(40, 24);
 			this.label13.TabIndex = 32;
@@ -1175,7 +1182,7 @@
 			// 
 			this.label12.AutoSize = true;
 			this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label12.Location = new System.Drawing.Point(230, 97);
+			this.label12.Location = new System.Drawing.Point(228, 97);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(80, 24);
 			this.label12.TabIndex = 31;
@@ -1185,7 +1192,7 @@
 			// 
 			this.label11.AutoSize = true;
 			this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label11.Location = new System.Drawing.Point(184, 97);
+			this.label11.Location = new System.Drawing.Point(187, 97);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(40, 24);
 			this.label11.TabIndex = 29;
@@ -1195,7 +1202,7 @@
 			// 
 			this.label10.AutoSize = true;
 			this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.label10.Location = new System.Drawing.Point(11, 97);
+			this.label10.Location = new System.Drawing.Point(3, 97);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(55, 24);
 			this.label10.TabIndex = 28;
@@ -1203,7 +1210,7 @@
 			// 
 			// GLOW
 			// 
-			this.GLOW.BackColor = System.Drawing.Color.Maroon;
+			this.GLOW.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.GLOW.Controls.Add(this.roundedPictureBox1);
 			this.GLOW.Controls.Add(this.label30);
 			this.GLOW.Controls.Add(this.GlowToggle6);
@@ -1270,7 +1277,7 @@
 			this.GlowToggle6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.GlowToggle6.FlatAppearance.BorderSize = 0;
 			this.GlowToggle6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.GlowToggle6.Location = new System.Drawing.Point(397, 98);
+			this.GlowToggle6.Location = new System.Drawing.Point(397, 100);
 			this.GlowToggle6.Name = "GlowToggle6";
 			this.GlowToggle6.Size = new System.Drawing.Size(48, 18);
 			this.GlowToggle6.TabIndex = 105;
@@ -1283,7 +1290,7 @@
 			this.GlowToggle5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.GlowToggle5.FlatAppearance.BorderSize = 0;
 			this.GlowToggle5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.GlowToggle5.Location = new System.Drawing.Point(158, 98);
+			this.GlowToggle5.Location = new System.Drawing.Point(158, 100);
 			this.GlowToggle5.Name = "GlowToggle5";
 			this.GlowToggle5.Size = new System.Drawing.Size(48, 18);
 			this.GlowToggle5.TabIndex = 104;
@@ -1309,7 +1316,7 @@
 			this.GlowToggle3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.GlowToggle3.FlatAppearance.BorderSize = 0;
 			this.GlowToggle3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.GlowToggle3.Location = new System.Drawing.Point(158, 69);
+			this.GlowToggle3.Location = new System.Drawing.Point(158, 71);
 			this.GlowToggle3.Name = "GlowToggle3";
 			this.GlowToggle3.Size = new System.Drawing.Size(48, 18);
 			this.GlowToggle3.TabIndex = 102;
@@ -1353,10 +1360,10 @@
 			// GlowButton10
 			// 
 			this.GlowButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton10.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton10.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton10.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton10.ForeColor = System.Drawing.Color.White;
 			this.GlowButton10.Location = new System.Drawing.Point(223, 283);
 			this.GlowButton10.Name = "GlowButton10";
 			this.GlowButton10.Size = new System.Drawing.Size(213, 40);
@@ -1369,10 +1376,10 @@
 			// GlowButton9
 			// 
 			this.GlowButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton9.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton9.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton9.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton9.ForeColor = System.Drawing.Color.White;
 			this.GlowButton9.Location = new System.Drawing.Point(296, 244);
 			this.GlowButton9.Name = "GlowButton9";
 			this.GlowButton9.Size = new System.Drawing.Size(140, 40);
@@ -1385,10 +1392,10 @@
 			// GlowButton8
 			// 
 			this.GlowButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton8.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton8.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton8.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton8.ForeColor = System.Drawing.Color.White;
 			this.GlowButton8.Location = new System.Drawing.Point(313, 203);
 			this.GlowButton8.Name = "GlowButton8";
 			this.GlowButton8.Size = new System.Drawing.Size(123, 42);
@@ -1401,10 +1408,10 @@
 			// GlowButton7
 			// 
 			this.GlowButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton7.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton7.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton7.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton7.ForeColor = System.Drawing.Color.White;
 			this.GlowButton7.Location = new System.Drawing.Point(296, 164);
 			this.GlowButton7.Name = "GlowButton7";
 			this.GlowButton7.Size = new System.Drawing.Size(140, 40);
@@ -1417,10 +1424,10 @@
 			// GlowButton6
 			// 
 			this.GlowButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton6.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton6.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton6.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton6.ForeColor = System.Drawing.Color.White;
 			this.GlowButton6.Location = new System.Drawing.Point(235, 125);
 			this.GlowButton6.Name = "GlowButton6";
 			this.GlowButton6.Size = new System.Drawing.Size(201, 40);
@@ -1433,10 +1440,10 @@
 			// GlowButton5
 			// 
 			this.GlowButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton5.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton5.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton5.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton5.ForeColor = System.Drawing.Color.White;
 			this.GlowButton5.Location = new System.Drawing.Point(38, 283);
 			this.GlowButton5.Name = "GlowButton5";
 			this.GlowButton5.Size = new System.Drawing.Size(213, 40);
@@ -1449,10 +1456,10 @@
 			// GlowButton4
 			// 
 			this.GlowButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton4.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton4.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton4.ForeColor = System.Drawing.Color.White;
 			this.GlowButton4.Location = new System.Drawing.Point(38, 244);
 			this.GlowButton4.Name = "GlowButton4";
 			this.GlowButton4.Size = new System.Drawing.Size(140, 40);
@@ -1465,10 +1472,10 @@
 			// GlowButton3
 			// 
 			this.GlowButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton3.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton3.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton3.ForeColor = System.Drawing.Color.White;
 			this.GlowButton3.Location = new System.Drawing.Point(38, 203);
 			this.GlowButton3.Name = "GlowButton3";
 			this.GlowButton3.Size = new System.Drawing.Size(123, 42);
@@ -1481,10 +1488,10 @@
 			// GlowButton2
 			// 
 			this.GlowButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton2.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton2.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton2.ForeColor = System.Drawing.Color.White;
 			this.GlowButton2.Location = new System.Drawing.Point(38, 164);
 			this.GlowButton2.Name = "GlowButton2";
 			this.GlowButton2.Size = new System.Drawing.Size(140, 40);
@@ -1497,10 +1504,10 @@
 			// GlowButton1
 			// 
 			this.GlowButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.GlowButton1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+			this.GlowButton1.FlatAppearance.BorderColor = System.Drawing.Color.Snow;
 			this.GlowButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.GlowButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.GlowButton1.ForeColor = System.Drawing.Color.Red;
+			this.GlowButton1.ForeColor = System.Drawing.Color.White;
 			this.GlowButton1.Location = new System.Drawing.Point(38, 125);
 			this.GlowButton1.Name = "GlowButton1";
 			this.GlowButton1.Size = new System.Drawing.Size(201, 40);
@@ -1534,7 +1541,7 @@
 			// 
 			this.GlowLabel4.AutoSize = true;
 			this.GlowLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.GlowLabel4.Location = new System.Drawing.Point(236, 68);
+			this.GlowLabel4.Location = new System.Drawing.Point(241, 68);
 			this.GlowLabel4.Name = "GlowLabel4";
 			this.GlowLabel4.Size = new System.Drawing.Size(145, 24);
 			this.GlowLabel4.TabIndex = 70;
@@ -1554,7 +1561,7 @@
 			// 
 			this.GlowLabel2.AutoSize = true;
 			this.GlowLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.GlowLabel2.Location = new System.Drawing.Point(241, 42);
+			this.GlowLabel2.Location = new System.Drawing.Point(241, 40);
 			this.GlowLabel2.Name = "GlowLabel2";
 			this.GlowLabel2.Size = new System.Drawing.Size(137, 24);
 			this.GlowLabel2.TabIndex = 66;
@@ -1564,7 +1571,7 @@
 			// 
 			this.GlowLabel1.AutoSize = true;
 			this.GlowLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.GlowLabel1.Location = new System.Drawing.Point(30, 42);
+			this.GlowLabel1.Location = new System.Drawing.Point(30, 40);
 			this.GlowLabel1.Name = "GlowLabel1";
 			this.GlowLabel1.Size = new System.Drawing.Size(86, 24);
 			this.GlowLabel1.TabIndex = 63;
@@ -1572,7 +1579,7 @@
 			// 
 			// MISC
 			// 
-			this.MISC.BackColor = System.Drawing.Color.Maroon;
+			this.MISC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.MISC.Controls.Add(this.label32);
 			this.MISC.Controls.Add(this.trackBar12);
 			this.MISC.Controls.Add(this.trackBar11);
@@ -1625,7 +1632,7 @@
 			this.trackBar12.AutoSize = false;
 			this.trackBar12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
 			this.trackBar12.LargeChange = 4;
-			this.trackBar12.Location = new System.Drawing.Point(302, 174);
+			this.trackBar12.Location = new System.Drawing.Point(306, 180);
 			this.trackBar12.Maximum = 30;
 			this.trackBar12.Name = "trackBar12";
 			this.trackBar12.Size = new System.Drawing.Size(130, 20);
@@ -1639,7 +1646,7 @@
 			this.trackBar11.AutoSize = false;
 			this.trackBar11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
 			this.trackBar11.LargeChange = 4;
-			this.trackBar11.Location = new System.Drawing.Point(302, 154);
+			this.trackBar11.Location = new System.Drawing.Point(306, 154);
 			this.trackBar11.Maximum = 30;
 			this.trackBar11.Name = "trackBar11";
 			this.trackBar11.Size = new System.Drawing.Size(130, 20);
@@ -1653,7 +1660,7 @@
 			this.trackBar10.AutoSize = false;
 			this.trackBar10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
 			this.trackBar10.LargeChange = 4;
-			this.trackBar10.Location = new System.Drawing.Point(68, 174);
+			this.trackBar10.Location = new System.Drawing.Point(68, 180);
 			this.trackBar10.Maximum = 150;
 			this.trackBar10.Name = "trackBar10";
 			this.trackBar10.Size = new System.Drawing.Size(130, 20);
@@ -1781,7 +1788,7 @@
 			// 
 			this.MiscLabel14.AutoSize = true;
 			this.MiscLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel14.Location = new System.Drawing.Point(435, 154);
+			this.MiscLabel14.Location = new System.Drawing.Point(442, 154);
 			this.MiscLabel14.Name = "MiscLabel14";
 			this.MiscLabel14.Size = new System.Drawing.Size(30, 24);
 			this.MiscLabel14.TabIndex = 112;
@@ -1791,7 +1798,7 @@
 			// 
 			this.MiscLabel13.AutoSize = true;
 			this.MiscLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel13.Location = new System.Drawing.Point(232, 175);
+			this.MiscLabel13.Location = new System.Drawing.Point(236, 177);
 			this.MiscLabel13.Name = "MiscLabel13";
 			this.MiscLabel13.Size = new System.Drawing.Size(71, 24);
 			this.MiscLabel13.TabIndex = 111;
@@ -1801,7 +1808,7 @@
 			// 
 			this.MiscLabel12.AutoSize = true;
 			this.MiscLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel12.Location = new System.Drawing.Point(434, 175);
+			this.MiscLabel12.Location = new System.Drawing.Point(442, 178);
 			this.MiscLabel12.Name = "MiscLabel12";
 			this.MiscLabel12.Size = new System.Drawing.Size(30, 24);
 			this.MiscLabel12.TabIndex = 110;
@@ -1811,7 +1818,7 @@
 			// 
 			this.MiscLabel11.AutoSize = true;
 			this.MiscLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel11.Location = new System.Drawing.Point(242, 154);
+			this.MiscLabel11.Location = new System.Drawing.Point(249, 154);
 			this.MiscLabel11.Name = "MiscLabel11";
 			this.MiscLabel11.Size = new System.Drawing.Size(58, 24);
 			this.MiscLabel11.TabIndex = 109;
@@ -1821,7 +1828,7 @@
 			// 
 			this.MiscLabel10.AutoSize = true;
 			this.MiscLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel10.Location = new System.Drawing.Point(198, 175);
+			this.MiscLabel10.Location = new System.Drawing.Point(198, 178);
 			this.MiscLabel10.Name = "MiscLabel10";
 			this.MiscLabel10.Size = new System.Drawing.Size(30, 24);
 			this.MiscLabel10.TabIndex = 108;
@@ -1831,7 +1838,7 @@
 			// 
 			this.MiscLabel9.AutoSize = true;
 			this.MiscLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel9.Location = new System.Drawing.Point(3, 173);
+			this.MiscLabel9.Location = new System.Drawing.Point(3, 178);
 			this.MiscLabel9.Name = "MiscLabel9";
 			this.MiscLabel9.Size = new System.Drawing.Size(62, 24);
 			this.MiscLabel9.TabIndex = 107;
@@ -1851,7 +1858,7 @@
 			// 
 			this.MiscLabel7.AutoSize = true;
 			this.MiscLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.MiscLabel7.Location = new System.Drawing.Point(9, 153);
+			this.MiscLabel7.Location = new System.Drawing.Point(3, 154);
 			this.MiscLabel7.Name = "MiscLabel7";
 			this.MiscLabel7.Size = new System.Drawing.Size(62, 24);
 			this.MiscLabel7.TabIndex = 105;
@@ -1919,7 +1926,7 @@
 			// 
 			// ESP
 			// 
-			this.ESP.BackColor = System.Drawing.Color.Maroon;
+			this.ESP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.ESP.Controls.Add(this.label31);
 			this.ESP.Controls.Add(this.EspToggle2);
 			this.ESP.Controls.Add(this.EspTrackBar6);
@@ -1980,7 +1987,7 @@
 			// 
 			this.EspTrackBar6.AutoSize = false;
 			this.EspTrackBar6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar6.Location = new System.Drawing.Point(199, 267);
+			this.EspTrackBar6.Location = new System.Drawing.Point(199, 287);
 			this.EspTrackBar6.Maximum = 255;
 			this.EspTrackBar6.Name = "EspTrackBar6";
 			this.EspTrackBar6.Size = new System.Drawing.Size(212, 20);
@@ -1993,7 +2000,7 @@
 			// 
 			this.EspTrackBar5.AutoSize = false;
 			this.EspTrackBar5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar5.Location = new System.Drawing.Point(199, 247);
+			this.EspTrackBar5.Location = new System.Drawing.Point(199, 261);
 			this.EspTrackBar5.Maximum = 255;
 			this.EspTrackBar5.Name = "EspTrackBar5";
 			this.EspTrackBar5.Size = new System.Drawing.Size(212, 20);
@@ -2006,7 +2013,7 @@
 			// 
 			this.EspTrackBar4.AutoSize = false;
 			this.EspTrackBar4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar4.Location = new System.Drawing.Point(199, 227);
+			this.EspTrackBar4.Location = new System.Drawing.Point(199, 235);
 			this.EspTrackBar4.Maximum = 255;
 			this.EspTrackBar4.Name = "EspTrackBar4";
 			this.EspTrackBar4.Size = new System.Drawing.Size(212, 20);
@@ -2020,7 +2027,7 @@
 			this.EspLabel16.AutoSize = true;
 			this.EspLabel16.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel16.Location = new System.Drawing.Point(417, 267);
+			this.EspLabel16.Location = new System.Drawing.Point(417, 287);
 			this.EspLabel16.Name = "EspLabel16";
 			this.EspLabel16.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel16.TabIndex = 207;
@@ -2031,7 +2038,7 @@
 			this.EspLabel15.AutoSize = true;
 			this.EspLabel15.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel15.Location = new System.Drawing.Point(417, 247);
+			this.EspLabel15.Location = new System.Drawing.Point(417, 261);
 			this.EspLabel15.Name = "EspLabel15";
 			this.EspLabel15.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel15.TabIndex = 206;
@@ -2042,7 +2049,7 @@
 			this.EspLabel14.AutoSize = true;
 			this.EspLabel14.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel14.Location = new System.Drawing.Point(417, 227);
+			this.EspLabel14.Location = new System.Drawing.Point(417, 235);
 			this.EspLabel14.Name = "EspLabel14";
 			this.EspLabel14.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel14.TabIndex = 205;
@@ -2053,7 +2060,7 @@
 			this.EspLabel13.AutoSize = true;
 			this.EspLabel13.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel13.Location = new System.Drawing.Point(20, 266);
+			this.EspLabel13.Location = new System.Drawing.Point(22, 283);
 			this.EspLabel13.Name = "EspLabel13";
 			this.EspLabel13.Size = new System.Drawing.Size(166, 24);
 			this.EspLabel13.TabIndex = 204;
@@ -2064,7 +2071,7 @@
 			this.EspLabel12.AutoSize = true;
 			this.EspLabel12.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel12.Location = new System.Drawing.Point(2, 245);
+			this.EspLabel12.Location = new System.Drawing.Point(10, 257);
 			this.EspLabel12.Name = "EspLabel12";
 			this.EspLabel12.Size = new System.Drawing.Size(179, 24);
 			this.EspLabel12.TabIndex = 203;
@@ -2075,7 +2082,7 @@
 			this.EspLabel11.AutoSize = true;
 			this.EspLabel11.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel11.Location = new System.Drawing.Point(24, 226);
+			this.EspLabel11.Location = new System.Drawing.Point(31, 233);
 			this.EspLabel11.Name = "EspLabel11";
 			this.EspLabel11.Size = new System.Drawing.Size(157, 24);
 			this.EspLabel11.TabIndex = 202;
@@ -2085,7 +2092,7 @@
 			// 
 			this.EspTrackBar3.AutoSize = false;
 			this.EspTrackBar3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar3.Location = new System.Drawing.Point(199, 207);
+			this.EspTrackBar3.Location = new System.Drawing.Point(199, 209);
 			this.EspTrackBar3.Maximum = 255;
 			this.EspTrackBar3.Name = "EspTrackBar3";
 			this.EspTrackBar3.Size = new System.Drawing.Size(212, 20);
@@ -2098,7 +2105,7 @@
 			// 
 			this.EspTrackBar2.AutoSize = false;
 			this.EspTrackBar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar2.Location = new System.Drawing.Point(199, 187);
+			this.EspTrackBar2.Location = new System.Drawing.Point(199, 183);
 			this.EspTrackBar2.Maximum = 255;
 			this.EspTrackBar2.Name = "EspTrackBar2";
 			this.EspTrackBar2.Size = new System.Drawing.Size(212, 20);
@@ -2111,7 +2118,7 @@
 			// 
 			this.EspTrackBar1.AutoSize = false;
 			this.EspTrackBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.EspTrackBar1.Location = new System.Drawing.Point(199, 167);
+			this.EspTrackBar1.Location = new System.Drawing.Point(199, 157);
 			this.EspTrackBar1.Maximum = 255;
 			this.EspTrackBar1.Name = "EspTrackBar1";
 			this.EspTrackBar1.Size = new System.Drawing.Size(212, 20);
@@ -2126,7 +2133,7 @@
 			this.EspLabel10.AutoSize = true;
 			this.EspLabel10.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel10.Location = new System.Drawing.Point(417, 207);
+			this.EspLabel10.Location = new System.Drawing.Point(417, 209);
 			this.EspLabel10.Name = "EspLabel10";
 			this.EspLabel10.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel10.TabIndex = 198;
@@ -2137,7 +2144,7 @@
 			this.EspLabel9.AutoSize = true;
 			this.EspLabel9.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel9.Location = new System.Drawing.Point(417, 187);
+			this.EspLabel9.Location = new System.Drawing.Point(417, 183);
 			this.EspLabel9.Name = "EspLabel9";
 			this.EspLabel9.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel9.TabIndex = 197;
@@ -2148,7 +2155,7 @@
 			this.EspLabel8.AutoSize = true;
 			this.EspLabel8.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel8.Location = new System.Drawing.Point(417, 167);
+			this.EspLabel8.Location = new System.Drawing.Point(417, 157);
 			this.EspLabel8.Name = "EspLabel8";
 			this.EspLabel8.Size = new System.Drawing.Size(40, 24);
 			this.EspLabel8.TabIndex = 196;
@@ -2159,7 +2166,7 @@
 			this.EspLabel7.AutoSize = true;
 			this.EspLabel7.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel7.Location = new System.Drawing.Point(24, 206);
+			this.EspLabel7.Location = new System.Drawing.Point(24, 205);
 			this.EspLabel7.Name = "EspLabel7";
 			this.EspLabel7.Size = new System.Drawing.Size(164, 24);
 			this.EspLabel7.TabIndex = 195;
@@ -2170,7 +2177,7 @@
 			this.EspLabel6.AutoSize = true;
 			this.EspLabel6.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel6.Location = new System.Drawing.Point(6, 185);
+			this.EspLabel6.Location = new System.Drawing.Point(12, 179);
 			this.EspLabel6.Name = "EspLabel6";
 			this.EspLabel6.Size = new System.Drawing.Size(177, 24);
 			this.EspLabel6.TabIndex = 194;
@@ -2181,7 +2188,7 @@
 			this.EspLabel5.AutoSize = true;
 			this.EspLabel5.BackColor = System.Drawing.Color.Transparent;
 			this.EspLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.EspLabel5.Location = new System.Drawing.Point(28, 166);
+			this.EspLabel5.Location = new System.Drawing.Point(34, 153);
 			this.EspLabel5.Name = "EspLabel5";
 			this.EspLabel5.Size = new System.Drawing.Size(155, 24);
 			this.EspLabel5.TabIndex = 193;
@@ -2295,7 +2302,7 @@
 			// 
 			// CHAMS
 			// 
-			this.CHAMS.BackColor = System.Drawing.Color.Maroon;
+			this.CHAMS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.CHAMS.Controls.Add(this.label33);
 			this.CHAMS.Controls.Add(this.ChamsToggle3);
 			this.CHAMS.Controls.Add(this.ChamsToggle2);
@@ -2528,7 +2535,7 @@
 			this.ChamsLabel9.AutoSize = true;
 			this.ChamsLabel9.BackColor = System.Drawing.Color.Transparent;
 			this.ChamsLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.ChamsLabel9.Location = new System.Drawing.Point(53, 238);
+			this.ChamsLabel9.Location = new System.Drawing.Point(48, 239);
 			this.ChamsLabel9.Name = "ChamsLabel9";
 			this.ChamsLabel9.Size = new System.Drawing.Size(134, 24);
 			this.ChamsLabel9.TabIndex = 170;
@@ -2624,7 +2631,7 @@
 			// 
 			// KEYS
 			// 
-			this.KEYS.BackColor = System.Drawing.Color.Maroon;
+			this.KEYS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(20)))), ((int)(((byte)(140)))));
 			this.KEYS.Controls.Add(this.label34);
 			this.KEYS.Controls.Add(this.KeyPicker12);
 			this.KEYS.Controls.Add(this.KeyPicker11);
@@ -3227,11 +3234,11 @@
 			// KeyLabel8
 			// 
 			this.KeyLabel8.AutoSize = true;
-			this.KeyLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.KeyLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.KeyLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.KeyLabel8.Location = new System.Drawing.Point(226, 191);
+			this.KeyLabel8.Location = new System.Drawing.Point(226, 189);
 			this.KeyLabel8.Name = "KeyLabel8";
-			this.KeyLabel8.Size = new System.Drawing.Size(94, 20);
+			this.KeyLabel8.Size = new System.Drawing.Size(107, 24);
 			this.KeyLabel8.TabIndex = 132;
 			this.KeyLabel8.Text = "Strafe Emu:";
 			// 
@@ -3312,32 +3319,38 @@
 			// 
 			// button9
 			// 
+			this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
 			this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button9.FlatAppearance.BorderSize = 0;
+			this.button9.FlatAppearance.BorderColor = System.Drawing.Color.DarkViolet;
 			this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button9.ForeColor = System.Drawing.Color.Red;
+			this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(39)))), ((int)(((byte)(176)))));
 			this.button9.Location = new System.Drawing.Point(563, 12);
 			this.button9.Name = "button9";
 			this.button9.Size = new System.Drawing.Size(25, 25);
 			this.button9.TabIndex = 7;
-			this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button9.UseVisualStyleBackColor = true;
+			this.button9.Text = "X";
+			this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+			this.button9.UseVisualStyleBackColor = false;
 			this.button9.Click += new System.EventHandler(this.button9_Click);
 			this.button9.MouseEnter += new System.EventHandler(this.button9_MouseEnter);
 			this.button9.MouseLeave += new System.EventHandler(this.button9_MouseLeave);
 			// 
 			// button10
 			// 
+			this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
 			this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button10.FlatAppearance.BorderSize = 0;
+			this.button10.FlatAppearance.BorderColor = System.Drawing.Color.DarkViolet;
 			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button10.ForeColor = System.Drawing.Color.Red;
+			this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(39)))), ((int)(((byte)(176)))));
 			this.button10.Location = new System.Drawing.Point(532, 12);
 			this.button10.Name = "button10";
 			this.button10.Size = new System.Drawing.Size(25, 25);
 			this.button10.TabIndex = 8;
-			this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button10.UseVisualStyleBackColor = true;
+			this.button10.Text = "-";
+			this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+			this.button10.UseVisualStyleBackColor = false;
 			this.button10.Click += new System.EventHandler(this.button10_Click);
 			this.button10.MouseEnter += new System.EventHandler(this.button10_MouseEnter);
 			this.button10.MouseLeave += new System.EventHandler(this.button10_MouseLeave);
@@ -3626,6 +3639,6 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Button EspToggle2;
         private System.Windows.Forms.Label ProfileLabel2;
-    }
+	}
 }
 
