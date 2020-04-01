@@ -20,8 +20,8 @@ jobs:
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Build PonySenseEx
-      working-directory: ./KleskBY/PonySenseEx
-      run: msbuild PonySenseEx.csproj /p:Platform=Win32 /p:Configuration=Release /p:VisualStudioVersion=16.0
+      working-directory: ./KleskBY
+      run: msbuild PonySenseEx.csproj /p:Configuration=Release /p:VisualStudioVersion=16.0
     - name: Move before upload
       working-directory: ./KleskBY/PonySenseEx/bin/Release
       run: |
