@@ -21,6 +21,11 @@ jobs:
         dotnet-version: 3.1.101
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
+    - name: Delete timestamp from csgo.cs(hazedumper)
+      working-directory: ./KleskBY/PonySenseEx/Other/hazedumper
+      run: |
+            ((Get-Content csgo.cs -Raw) -replace 'public const Int32 timestamp','//public const Int32 timestamp') | Set-Content csgo.cs
+      shell: pwsh
     - name: Build PonySenseEx
       working-directory: ./KleskBY/PonySenseEx
       run: msbuild PonySenseEx.csproj /p:Configuration=Release /p:VisualStudioVersion=16.0
