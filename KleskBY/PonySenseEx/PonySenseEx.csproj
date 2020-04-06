@@ -96,7 +96,7 @@
     <Compile Include="Other\Checks.cs" />
     <Compile Include="Other\Enums.cs" />
     <Compile Include="Other\Imports.cs" />
-    <Compile Include="Other\HazeDumper.cs" />
+    <Compile Include="Other\hazedumper\csgo.cs" />
     <Compile Include="Other\ini-Parser\Exceptions\ParsingException.cs" />
     <Compile Include="Other\ini-Parser\FileIniParser.cs" />
     <Compile Include="Other\ini-Parser\Helpers\Assert.cs" />
