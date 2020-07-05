@@ -665,7 +665,7 @@ namespace Orion
                               //  MessageBox.Show(module.ModuleName);
                                 Structs.Base.Engine = module.BaseAddress;
                             }
-                            else if(module.ModuleName.Contains("client_panorama.dll"))
+                            else if(module.ModuleName.Contains("client.dll"))
                             {
                                 loadedModules.Add(module.ModuleName);
                               //  MessageBox.Show(module.ModuleName);
