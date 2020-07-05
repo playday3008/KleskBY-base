@@ -81,7 +81,7 @@ namespace Orion
 
         public static string[] Modules = new string[] // game dlls
         {
-                "client_panorama.dll",
+                "client.dll",
                 "engine.dll"
         };
 
