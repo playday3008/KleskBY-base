@@ -641,7 +641,7 @@ namespace Orion
                             case "engine.dll":
                                 Structs.Base.Engine = module.BaseAddress;
                                 break;
-                            case "client_panorama.dll":
+                            case "client.dll":
                                 Structs.Base.Client = module.BaseAddress;
                                 break;
                             default:
