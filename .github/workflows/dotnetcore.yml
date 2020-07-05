@@ -22,23 +22,23 @@ jobs:
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Delete timestamp from csgo.cs(hazedumper)
-      working-directory: ./KleskBY/PonySenseEx/Other/hazedumper
+      working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
       run: |
             ((Get-Content csgo.cs -Raw) -replace 'public const Int32 timestamp','//public const Int32 timestamp') | Set-Content csgo.cs
       shell: pwsh
     - name: Build PonySenseEx
-      working-directory: ./KleskBY/PonySenseEx
+      working-directory: ./PonySenseEx/PonySenseEx
       run: msbuild PonySenseEx.csproj /p:Configuration=Release /p:VisualStudioVersion=16.0
     - name: Move before upload
-      working-directory: ./KleskBY/PonySenseEx/bin/Release
+      working-directory: ./PonySenseEx/PonySenseEx/bin/Release
       run: |
             mkdir ready
             Move-Item -Path .\PonySenseEx.exe -Destination .\ready\PonySenseEx.exe
       shell: pwsh
     - name: SHA1 PonySenseEx
-      working-directory: ./KleskBY/PonySenseEx/bin/Release/ready
+      working-directory: ./PonySenseEx/PonySenseEx/bin/Release/ready
       run: sha1sum PonySenseEx.exe > PonySenseEx.exe.sha1
     - uses: actions/upload-artifact@v1
       with:
         name: Release PonySenseEx
-        path: ./KleskBY/PonySenseEx/bin/Release/ready
+        path: ./PonySenseEx/PonySenseEx/bin/Release/ready
