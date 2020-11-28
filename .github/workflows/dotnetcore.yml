@@ -21,6 +21,13 @@ jobs:
         dotnet-version: 3.1.x
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
+    - name: Get latest hazedumper
+      working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
+      run: |
+            rm csgo.cs
+            wget https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.cs
+            ((Get-Content csgo.cs -Raw) -replace 'public const Int32 timestamp','//public const Int32 timestamp') | Set-Content csgo.cs
+      shell: pwsh
     - name: Delete timestamp from csgo.cs(hazedumper)
       working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
       run: |
