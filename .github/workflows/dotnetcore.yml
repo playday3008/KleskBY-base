@@ -25,7 +25,7 @@ jobs:
       working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
       run: |
             rm csgo.cs
-            wget https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.cs
+            Invoke-WebRequest -Uri "https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.cs" -OutFile csgo.cs
       shell: pwsh
     - name: Delete timestamp from csgo.cs(hazedumper)
       working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
