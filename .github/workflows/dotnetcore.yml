@@ -26,7 +26,6 @@ jobs:
       run: |
             rm csgo.cs
             wget https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.cs
-            ((Get-Content csgo.cs -Raw) -replace 'public const Int32 timestamp','//public const Int32 timestamp') | Set-Content csgo.cs
       shell: pwsh
     - name: Delete timestamp from csgo.cs(hazedumper)
       working-directory: ./PonySenseEx/PonySenseEx/Other/hazedumper
